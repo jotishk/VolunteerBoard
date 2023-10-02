@@ -1,0 +1,64 @@
+.event-creation {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.create-event-text {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.name-input {
+  margin-top: 10px;
+  width: 500px;
+  height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.6);
+  border: 0;
+  outline: none;
+}
+.create-event-form-text {
+  display: block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+
+}
+.participant-input {
+  margin-top: 10px;
+  width: 50px;
+  height: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.6);
+  border: 0;
+  outline: none;
+  text-align: center;
+}
+.form-div {
+  width: 600px;
+}
+.main-form-div {
+  display: flex;
+}
+.description-input {
+  margin-top: 10px;
+  width: 500px;
+  height: 200px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.6);
+  border: 0;
+  outline: none;
+}
+.create-button {
+  background-color: #0067b8;
+  color: white;
+  width: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 35px;
+  border-radius: 0;
+
+}
+.create-button:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,287 @@
+.header {
+  position: fixed;
+  display: flex;
+  width: 1fr;
+  border-bottom: 1px solid rgb(215, 215, 215);
+  height: 70px;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+body {
+  margin: 0;
+  padding-bottom: 2000px;
+}
+.logo-text {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.create-text {
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+  color: rgb(110, 110, 110);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+.donate-text {
+  margin-top: 25px;
+  
+  font-size: 20px;
+  color: rgb(110, 110, 110);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+.dashboard-text {
+  margin-top: 25px;
+  margin-left: 900px;
+  font-size: 20px;
+  color: rgb(110, 110, 110);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+.upcoming-events {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.upcoming-events-text {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.upcoming-events-flex {
+  display: flex;
+  width: 1300px;
+  height: 590px;
+  
+  margin-top: 40px;
+  
+  justify-content: space-between;
+}
+.upcoming-event-box {
+  
+  width: 366px;
+  height: 500px;
+  
+}
+.upcoming-event-box-time {
+  background-color: rgb(125, 125, 125);
+  width: 246px;
+  height: 30px;
+}
+.upcoming-event-box-image {
+  background-color: rgb(255, 0, 225);
+  width: 366px;
+  height: 220px;
+}
+.upcoming-event-box-info {
+  background-color: rgb(68, 0, 255);
+  width: 366px;
+  height: 80px;
+}
+.upcoming-event-box-name {
+  background-color: rgb(68, 0, 255);
+  width: 366px;
+  height: 40px;
+}
+.upcoming-event-box-host {
+  background-color: rgb(255, 0, 72);
+  width: 366px;
+  height: 40px;
+}
+.upcoming-event-box-description {
+  background-color: rgb(0, 255, 47);
+  width: 366px;
+  height: 150px;
+}
+.upcoming-event-box-participants{
+  background-color: rgb(251, 255, 0);
+  
+  width: 366px;
+  height: 50px;
+}
+.upcoming-event-box-options {
+  background-color: cadetblue;
+  height: 60px;
+  width: 178px;
+}
+.recommendations-section {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.recommendations-text {
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: inline-block;
+}
+.recommendations-events-flex {
+  display: flex;
+  width: 1300px;
+  height: 590px;
+  
+  margin-top: 40px;
+  
+  justify-content: space-between;
+  
+  
+}
+.recommendations-events-flex2 {
+  display: flex;
+  width: 1300px;
+  height: 590px;
+  
+  margin-top: 40px;
+  /* margin-left: -935px; */
+  justify-content: space-between;
+  
+}
+.recommendations-event-box {
+  background-color: transparent;
+  width: 366px;
+  height: 610px;
+}
+.recommendations-event-box-time {
+  background-color: rgb(0, 0, 0);
+  width: 210px;
+  height: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:2px;
+  border-color: black; 
+  border-style: solid;
+  border-bottom: 0px;
+ 
+}
+.recommendations-event-box-image {
+  
+  width: 366px;
+  height: 240px;
+  border:2px;
+  border-color: black; 
+  border-style: solid;
+  border-bottom: 0px;
+  
+}
+.recommendations-event-box-info {
+  
+  width: 366px;
+  height: 60px;
+  border:2px;
+  border-color: black; 
+  border-style: solid;
+  border-bottom: 0px; 
+  background-color: rgb(241, 241, 241);
+}
+.recommendations-event-box-name {
+ 
+  width: 366px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recommendations-event-box-host {
+  
+  width: 366px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 0px;
+}
+.recommendations-event-box-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 366px;
+  height: 150px;
+  border:2px;
+  border-color: black; 
+  border-style: solid;
+  border-bottom: 0px;
+  border-top: 0px;
+  background-color: rgb(241, 241, 241);
+}
+.recommendations-event-box-participants{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 366px;
+  height: 50px;
+  border:2px;
+  border-color: black; 
+  border-style: solid;
+  border-bottom: 0px;
+  border-top: 0px;
+  background-color: rgb(241, 241, 241);
+}
+.recommendations-event-box-options {
+  width:366px;
+  height: 60px;
+  border:2px;
+  border-color: black; 
+  border-style: solid;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: rgb(241, 241, 241);
+}
+.recommendations-event-box-time-text {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.recommendations-event-box-name-text {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: bold ;
+}
+.recommendations-event-box-host-text {
+  font-size: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: rgb(126, 126, 126);
+}
+.recommendations-event-box-participants-text {
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  
+}
+.recommendations-event-box-image2 {
+  width: 366px;
+  height: 240px;
+}
+.recommendations-event-box-description-text {
+  text-align: center;
+  width: 366px;
+  height: 150px;
+  overflow-wrap: break-word;
+  font-size: 15px;
+}
+.recommendations-event-box-join-button {
+  margin-top:10px;
+  height: 40px;
+  width: 100px;
+  margin-left: 30px;
+  background-color: blue;
+  color: white;
+  border: none;
+
+}
+.recommendations-event-box-join-button:hover {
+  opacity: 0.5;
+}

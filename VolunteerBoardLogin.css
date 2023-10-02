@@ -1,0 +1,82 @@
+.login-box {
+  background-color: rgb(243, 243, 243);
+  height: 500px;
+  width: 500px;
+  margin-left: 500px;
+  margin-top: 120px;
+  
+}
+.login-text {
+  margin-left: 60px;
+  margin-top: 50px;
+  font-size: 40px;
+  display: inline-block;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.username-box {
+  display: block;
+  margin-bottom: 80px;
+  margin-left: 60px;
+  margin-top: 30px;
+  width: 350px;
+  height: 50px;
+  border-top-width: 0;
+  outline: 0 ;
+  border-left-width: 0;
+  border-right-width: 0;
+  background-color: rgb(243, 243, 243);
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.password-box {
+  display: block;
+  margin-bottom: 50px;
+  margin-left: 60px;
+  
+  width: 350px;
+  height: 50px;
+  border-top-width: 0;
+  outline: 0 ;
+  border-left-width: 0;
+  border-right-width: 0;
+  background-color: rgb(243, 243, 243);
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login-submit {
+  margin-left: 315px;
+  background-color: #0067b8;
+  color: white;
+  width: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 35px;
+  border-radius: 0px;
+}
+.header {
+  position: fixed;
+  display: flex;
+  width: 1fr;
+  border-bottom: 1px solid rgb(215, 215, 215);
+  height: 70px;
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+}
+.logo-text {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.donate-text {
+  margin-top: 25px;
+  
+  font-size: 20px;
+  color: rgb(110, 110, 110);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
